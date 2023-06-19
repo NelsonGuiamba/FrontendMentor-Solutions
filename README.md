@@ -40,4 +40,4 @@ Please ensure your solution follows the directory structure and naming conventio
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
