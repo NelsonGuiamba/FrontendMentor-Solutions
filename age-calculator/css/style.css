@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+* {
+  font-family: Poppins;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-gray: hsl(0, 0%, 84%);
+  --smokey-gray: hsl(0, 1%, 44%);
+  --off-gray: hsl(0, 0%, 8%);
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+}
+
+.hidie {
+  visibility: hidden;
+}
+
+.red {
+  color: var(--light-red);
+}
+
+.border-red {
+  border: 2px solid var(--light-red);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--off-white);
+  flex-direction: column;
+}
+
+.container {
+  background-color: var(--white);
+  width: 420px;
+  max-width: 70%;
+  padding: 30px;
+  border-bottom-right-radius: 150px;
+  position: relative;
+}
+
+input {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid var(--off-white);
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+input::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--off-gray);
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--off-gray);
+}
+
+input::placeholder {
+  color: var(--smokey-gray);
+}
+input:focus {
+  border: 2px solid var(--purple);
+}
+
+small {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  width: 120x;
+  height: 13px;
+}
+
+.submit {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 125px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: black;
+}
+
+.output span {
+  color: var(--purple);
+  font-size: 2.75rem;
+  font-style: italic;
+}
+
+.input-container {
+  display: flex;
+  color: var(--smokey-gray);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.input-container input {
+  border-radius: 5px;
+}
+.input-flex {
+  display: flex;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+hr {
+  border: 1px solid var(--light-gray);
+}
+@media (max-width: 375px) {
+  .input-container input {
+    width: 40px;
+  }
+
+  .submit {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    right: 120px;
+    top: 132px;
+  }
+
+  small {
+    width: 64px;
+  }
+}
