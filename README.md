@@ -19,7 +19,8 @@ Browse the list of challenges and click on the links to see the respective solut
 
 1. [QrCode Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub)
    - [Solution 1](https://github.com/NelsonGuiamba/FrontendMentor-Solutions/tree/main/qr-code)
-  
+2. [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
+   - [Solution 1](age-calculator)
 
 
 
