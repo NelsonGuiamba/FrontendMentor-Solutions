@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <style type="text/css">
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .toggle {
+        display: block;
+        position: relative;
+        width: 100px;
+        height: 40px;
+        padding: 3px;
+        border-radius: 50px;
+        background-color: cornflowerblue;
+        overflow: hidden;
+      }
+      .toggle-input {
+        display: none;
+      }
+
+      .toggle-label {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        /* background: linear-gradient(to bottom, #ffffff 40%, #f0f0f0);*/
+
+        .toggle-label:before {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: red;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transition: all 0.25s ease-in-out;
+        }
+        .toggle-checkbox:checked + .toggle-label:before {
+          transform: translateX(35px);
+        }
+      }
+    </style>
+    <div class="container">
+      <h1>Switch on/off</h1>
+      <label class="toggle">
+        <input type="checkbox" class="toggle-input" />
+        <span class="toggle-label"></span>
+      </label>
+    </div>
+  </body>
+</html>
