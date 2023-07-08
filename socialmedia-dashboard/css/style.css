@@ -207,7 +207,7 @@ main h2 {
 }
 .secundary-topics {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
   gap: 20px;
 }
 
@@ -256,6 +256,9 @@ main h2 {
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px solid black;
+  }
+  .secundary-topics {
+    grid-template-columns: 1fr !important;
   }
   main {
     transform: translateY(0);
