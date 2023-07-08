@@ -22,7 +22,7 @@ Browse the list of challenges and click on the links to see the respective solut
 2. [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
    - [Solution 1](age-calculator)
 3. [SocialMedia Dashboard](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
-   - [Solution 1](socialmedia-dasboard)
+   - [Solution 1](socialmedia-dashboard)
 
 
 Feel free to add your own solutions by submitting a pull request. Contributions are always welcome!
