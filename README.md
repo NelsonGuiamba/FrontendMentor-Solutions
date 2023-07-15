@@ -23,7 +23,8 @@ Browse the list of challenges and click on the links to see the respective solut
    - [Solution 1](age-calculator)
 3. [SocialMedia Dashboard](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
    - [Solution 1](socialmedia-dashboard)
-
+4. [News Home Page](https://www.frontendmentor.io/challenge    s/news-homepage-H6SWTa1MFl)
+   - [Solution 1](news-home-page)
 
 Feel free to add your own solutions by submitting a pull request. Contributions are always welcome!
 
