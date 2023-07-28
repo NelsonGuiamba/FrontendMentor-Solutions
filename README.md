@@ -25,6 +25,8 @@ Browse the list of challenges and click on the links to see the respective solut
    - [Solution 1](socialmedia-dashboard)
 4. [News Home Page](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
    - [Solution 1](news-home-page)
+5. [Ecommerce product main](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
+   - [Solution 1](ecommerce-product-page-main)
 
 Feel free to add your own solutions by submitting a pull request. Contributions are always welcome!
 

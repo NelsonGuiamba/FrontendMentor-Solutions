@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/eecommerce-product-page-main)
--
+- Live Site URL: [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/ecommerce-product-page-main)
+
 ## My process
 
 ### Built with
