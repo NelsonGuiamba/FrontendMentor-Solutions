@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Kumbh", sans-serif;
+  src: url("../fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf");
+}
+
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --pale-orange: hsl(25, 100%, 94%);
+
+  --very-dark-blue: hsl(220, 13%, 13%);
+  --dark-grayish-blue: hsl(219, 9%, 45%);
+  --grayish-blue: hsl(220, 14%, 75%);
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsla(0, 0%, 0%, 75%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display:none !important;
+}
+nav {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid var(--dark-grayish-blue);
+  margin-bottom: 65px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-items p {
+  color: var(--dark-grayish-blue);
+  position: relative;
+}
+
+.nav-items p:hover {
+  color: var(--black);
+}
+.nav-items p:hover::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid var(--orange);
+}
+.profile {
+  position: relative;
+}
+.profile img {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+
+.profile img:hover {
+  cursor: pointer;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+}
+.dropbox {
+  position: absolute;
+  width: 290px;
+  padding: 20px;
+  left: -170px;
+  top: 50px;
+  background-color: var(--white);
+  box-shadow: 0 0 10px var(--very-dark-blue);
+}
+
+.dropbox .drop-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dropbox hr {
+  position: relative;
+  width: calc(100% + 38px);
+  left: -20px;
+}
+.cart-content {
+  margin-top: 10px;
+}
+
+.cart-item {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-evenly;
+}
+
+.cart-item p {
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+}
+
+.cart-item span[data-id="result"] {
+  font-weight: bold;
+  color: black;
+}
+
+.cart-item .cart-thumb {
+  width: 50px;
+  height: 50px;
+}
+
+.cart-item .delete-cart {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.dropbox .cart-empty{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-grayish-blue);
+  font-weight: 600;
+}
+
+.profile .item-count {
+  position: absolute;
+  left: 15px;
+  width: 22px;
+  height: 15px;
+  border-radius: 40%;
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 15px;
+  text-align: center;
+}
+
+.dropbox button {
+  height: 50px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  border-radius: 10px;
+  width: 100%;
+}
+.main-content {
+  display: flex;
+  gap: 100px;
+}
+
+.products {
+  width: 50%;
+}
+
+.main_product img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.sub_products {
+  display: flex;
+  gap: 20px;
+}
+
+.sub_products img {
+  width: calc(25% - 18px);
+  border-radius: 20px;
+}
+
+.sub_products img:hover{
+  filter: opacity(50%);
+  cursor: pointer;
+}
+.content {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.focused {
+  border: 5px solid var(--orange);
+  background-color: var(--white);
+  filter: opacity(30%) ;
+}
+
+h2.company-name {
+  color: var(--orange);
+}
+h1.title-h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: var(--very-dark-blue);
+}
+
+.description {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 30px;
+}
+
+.discounted_price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.discount {
+  font-size: 1rem;
+  background-color: var(--pale-orange);
+  color: var(--orange);
+  font-weight: normal;
+  margin-left: 1rem;
+  padding: 3px;
+}
+.real_price {
+  margin: 0.5rem 0;
+  color: var(--grayish-blue);
+  text-decoration: line-through;
+}
+
+.cart {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.input-container {
+  flex-grow: 1;
+  height: 50px;
+  display: flex;
+  background-color: var(--light-grayish-blue);
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input-container input {
+  background-color: rgba(0, 0, 0, 0);
+  width: 3em;
+  height: 2em;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+
+.input-container img:focus {
+  cursor: pointer;
+}
+.input-container input:focus {
+  border: none;
+  outline: none;
+}
+.cart button {
+  flex-grow: 3;
+  height: 50px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -8px var(--orange);
+}
+
+.cart button:hover {
+  opacity: 0.7;
+}
+.cart button svg {
+  width: 1em;
+  height: 1em;
+}
+.cart button svg path {
+  fill: var(--white);
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 50%;
+  height: 80%;
+  position: relative;
+}
+
+.close-modal {
+  position: relative;
+  right: calc(-100% + 20px);
+  margin-bottom: 10px;
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.nextBtn {
+  position: absolute;
+  top: 245px;
+  right: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prevBtn {
+  position: absolute;
+  top: 245px;
+  left: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-imgs {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70px;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.sub-img img {
+  width: 100%;
+  height: 100%; 
+  border-radius: 10px;
+  background-color: var(--white);
+}
