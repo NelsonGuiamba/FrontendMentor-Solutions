@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution 1 (desktop only using vannilajs): [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/solution 1/ecommerce-product-page-main)
--   Solution 2 (React full version): [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/solution 2/dist)
+-   Solution 2 (React full version): [here](https://eccommerce-frontendmentor.vercel.app/)
 
 ## My process
 
@@ -37,9 +37,8 @@ Users should be able to:
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   CSS Grid
 -   Javascript
--
+-   React
 
 ### What I learned
 
