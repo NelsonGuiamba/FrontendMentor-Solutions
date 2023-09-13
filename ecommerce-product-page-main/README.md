@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
--   Solution 1 (desktop only using vannilajs): [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/solution 1/ecommerce-product-page-main)
+-   Solution 1 (desktop only using vannilajs): [here](https://nelsonguiamba.github.io/FrontendMentor-Solutions/ecommerce-product-page-main/solution%201)
 -   Solution 2 (React full version): [here](https://eccommerce-frontendmentor.vercel.app/)
 
 ## My process
