@@ -8,7 +8,7 @@ logs
 .vercel
 node_modules
 bower_components
-
+todo.txt 
 
 *.sublime*
 

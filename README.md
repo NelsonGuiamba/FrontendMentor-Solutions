@@ -4,10 +4,10 @@ Welcome to the Frontend Mentor Solutions project! This repository is created to 
 
 ## Table of Contents
 
-- [About](#about)
-- [Challenges](#challenges)
-- [Contributing](#contributing)
-- [License](#license)
+-   [About](#about)
+-   [Challenges](#challenges)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 ## About
 
@@ -18,15 +18,17 @@ Frontend Mentor is a platform that provides real-world front-end challenges to h
 Browse the list of challenges and click on the links to see the respective solutions.
 
 1. [QrCode Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub)
-   - [Solution 1](https://github.com/NelsonGuiamba/FrontendMentor-Solutions/tree/main/qr-code)
+    - [Solution 1](https://github.com/NelsonGuiamba/FrontendMentor-Solutions/tree/main/qr-code)
 2. [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
-   - [Solution 1](age-calculator)
+    - [Solution 1](age-calculator)
 3. [SocialMedia Dashboard](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
-   - [Solution 1](socialmedia-dashboard)
+    - [Solution 1](socialmedia-dashboard)
 4. [News Home Page](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
-   - [Solution 1](news-home-page)
+    - [Solution 1](news-home-page)
 5. [Ecommerce product main](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
-   - [Solution 1](ecommerce-product-page-main)
+    - [Solution 1](ecommerce-product-page-main)
+6. [Rest countries](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+    - [Solution 1](rest-countries)
 
 Feel free to add your own solutions by submitting a pull request. Contributions are always welcome!
 
